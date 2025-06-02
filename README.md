@@ -1,1 +1,8 @@
-# FrontEndJS-2025
+Pre-Entrega de Proyecto
+Talento Tech
+-----------------------------------
+
+
+
+Jimmy Martinez 
+jimmymartinez@outlook.com

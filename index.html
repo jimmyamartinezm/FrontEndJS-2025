@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talento Tech - Pre Entrega</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a Nuestra Página</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Home</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#reseñas">Reseñas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Sección Inicio -->
+        <section id="inicio">
+            <h2>Bienvenidos</h2>
+            <p>Descubre más sobre nuestra empresa y los servicios que ofrecemos.</p>
+            <img src="banner.jpg" class="responsive" alt="Imagen de nuestra empresa">
+        </section>
+
+        <!-- Sección Productos -->
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-container">
+                <div class="card">
+                    <img src="laptop.jpg" class="responsive" alt="Laptop">
+                    <p>Producto 1</p>
+                </div>
+                <div class="card">
+                    <img src="mobile.jpg"  class="responsive" alt="Celulares">
+                    <p>Producto 2</p>
+                </div>
+                <div class="card">
+                    <img src="tablet.jpg" class="responsive" alt="Tablet">
+                    <p>Producto 3</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Reseñas -->
+        <section id="reseñas">
+            <h2>Reseñas de Clientes</h2>
+            <div class="reseñas-container">
+                <div class="review">"Excelente servicio!"</div>
+                <div class="review">"Muy recomendado!"</div>
+                <div class="review">"Gran calidad en los productos."</div>
+            </div>
+        </section>
+
+        <!-- Sección Multimedia -->
+        <section id="multimedia">
+            <h2>Video Promocional</h2>
+            <video  controls>
+                <source src="video.mp4" type="video/mp4">
+               Video no soportado.
+            </video>
+            <h2>Ubicación</h2>
+            <iframe  src="https://www.youtube.com/embed/9eMWIUUh-2E?si=WwX7HjBiQyuMpX9S"></iframe>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section  id="contacto">
+          <div class="container">
+        <h2>Contacto</h2>
+        <form action="https://formspree.io/f/TU_FORM_ID" method="POST">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <textarea name="mensaje" placeholder="Escribe tu mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TALENTO TECH - Front - End JS</p>
+    </footer>
+
+</body>
+</html>
